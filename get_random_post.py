@@ -43,7 +43,7 @@ if(len(post) > 0):
     post = scraped_post.replace("</p>", "")
     scraped_post = post.replace("&#8217;", "'")
     post = scraped_post.replace("<p class=\"font_8\">", "")
-    scraped_post = post.replace("<br />", "\n").replace("<br/>", "\n")
+    scraped_post = post.replace("<br />", "\n").replace("<br/>", "\n").replace("&nbsp;", "\n")
     post = scraped_post.replace("<p>", "")
     scraped_post = post.replace("<div id='jp-relatedposts' class='jp-relatedposts' >", "")
     post = scraped_post.replace("<h3 class=\"jp-relatedposts-headline\"><em>Related</em></h3>", "")
