@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.theyoungauthors.randomsubmission;
 
 import org.junit.Test;
 

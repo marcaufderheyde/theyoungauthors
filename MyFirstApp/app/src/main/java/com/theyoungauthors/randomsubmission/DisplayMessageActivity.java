@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.theyoungauthors.randomsubmission;
 
 import androidx.appcompat.app.AppCompatActivity;
 

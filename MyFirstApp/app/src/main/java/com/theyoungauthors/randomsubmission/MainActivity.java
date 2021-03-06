@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.theyoungauthors.randomsubmission;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.com.theyoungauthors.com.theyoungauthors.randomsubmission.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

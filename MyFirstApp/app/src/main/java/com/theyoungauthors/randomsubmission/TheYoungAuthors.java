@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.theyoungauthors.randomsubmission;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.nio.Buffer;
-import java.util.Scanner;
+
 import android.os.Bundle;
 import android.webkit.WebView;
 
@@ -92,6 +91,11 @@ public class TheYoungAuthors extends AppCompatActivity {
         }
         //Removing the HTML tags
         //result = result.replaceAll("<[^>]*>", "");
-        wv.loadDataWithBaseURL("", content, mimeType, encoding, "");
+        if(content.length() > 30) {
+            wv.loadDataWithBaseURL("", content, mimeType, encoding, "");
+        }
+        else {
+            wv.loadDataWithBaseURL("", "Server encountered an error while retrieving the post. Please try again...", mimeType, encoding, "");
+        }
     }
 }
