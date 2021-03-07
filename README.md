@@ -13,3 +13,8 @@
 
 ### Alright, now let me download the thing!
 - [Please find the 1.0 version of theyoungautors Android application here: Download](https://github.com/marcaufderheyde/theyoungauthors/raw/master/MyFirstApp/app/release/app-release.apk)
+
+### Some things to note:
+- The scraper, get_random_post.py, is custom written specifically for theyoungauthors.com. It may not work for any other Wordpress sites. I'm not sure, I haven't tested it.
+- Different larger screen sizes might have some weird UI effects...
+- This Application is arguably unnecessary, YOLO. Don't @ me <3
